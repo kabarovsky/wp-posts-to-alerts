@@ -2,8 +2,6 @@
 
 function alertsEmailBody() {
 
-	global $wpdb;
-
 	$tomorrow = date("Ymd", strtotime('tomorrow'));
 
 	$body .= 'The following events start tomorrow, ' . date("d.m.Y.", strtotime('tomorrow')) . '<br/>';

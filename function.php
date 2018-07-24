@@ -25,11 +25,11 @@ function alertsEmailBody() {
 		'post_status' => 'publish', 
 		'meta_query'  => array(
     		'relation'    => 'AND',
-	    	array(
-	    		'key'   => 'dates_$_date_start',
-	    		'compare' => '=',
-	    		'value'   => $tomorrow,
-	    	)
+			array (
+				'key'   => 'dates_$_date_start',
+				'compare' => '=',
+				'value'   => $tomorrow,
+			)
   		)
 	);
 	$the_query = new WP_Query($args); 

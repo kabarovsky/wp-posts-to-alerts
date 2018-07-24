@@ -12,6 +12,6 @@ sendingAlerts() checks if there are any events tomorrow, and if yes, wp_mail() w
 
 Resources:
 
-https://codex.wordpress.org/Function_Reference/wp_next_scheduled
-https://codex.wordpress.org/Plugin_API/Filter_Reference/wp_mail
+https://codex.wordpress.org/Function_Reference/wp_next_scheduled <br>
+https://codex.wordpress.org/Plugin_API/Filter_Reference/wp_mail <br>
 https://www.advancedcustomfields.com/resources/query-posts-custom-fields/

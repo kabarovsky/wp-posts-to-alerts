@@ -1,8 +1,6 @@
 # wp-posts-to-alerts
 
-This is plugin-free and wanna-do-it-myself solution for alerting WordPress users about some events. 
-
-In this particular case, each WordPress post was an event, and the date of the event was set in ACF repeater sub-field.
+Each WordPress post is an event, and the date of the event has been set in ACF repeater sub-field.
 
 alertsEmailBody() is for returning tomorrow's events, called for $message argument in wp_mail() function.  
 
